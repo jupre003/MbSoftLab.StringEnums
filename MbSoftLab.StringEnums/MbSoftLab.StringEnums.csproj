@@ -16,11 +16,13 @@
     <RepositoryUrl>https://github.com/mbsoftlab/MbSoftLab.StringEnums</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageTags>String Enum Extensions StringEnum</PackageTags>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
   </PropertyGroup>
 	<ItemGroup>
 		<None Include="MbSoftLabLogo.png">
 			<Pack>True</Pack>
 			<PackagePath></PackagePath>
 		</None>
+		<None Include="../Readme.md" Pack="true" PackagePath=""/>
 	</ItemGroup>
 </Project>
