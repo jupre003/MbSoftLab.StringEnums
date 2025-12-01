@@ -1,13 +1,13 @@
 # Installation Guide
 
-> **Commit Reference:** `05e796ffe1bfb23188eed5ccb7b5222709f0455f` (v0.0.1)
+> **Commit Reference:** `be2d13051e07c898966cbbee29172b9941101de5` (v1.0.2)
 
 ## Package Information
 
 | Property | Value |
 |----------|-------|
 | Package Name | MbSoftLab.StringEnums |
-| Current Version | 0.0.1 |
+| Current Version | 1.0.2 |
 | License | MIT |
 | Target Framework | .NET Standard 2.0 |
 
@@ -30,7 +30,7 @@ dotnet add package MbSoftLab.StringEnums
 Add the following to your `.csproj` file:
 
 ```xml
-<PackageReference Include="MbSoftLab.StringEnums" Version="0.0.1" />
+<PackageReference Include="MbSoftLab.StringEnums" Version="1.0.2" />
 ```
 
 ## Namespace

@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-> **Commit Reference:** `05e796ffe1bfb23188eed5ccb7b5222709f0455f` (v0.0.1)
+> **Commit Reference:** `be2d13051e07c898966cbbee29172b9941101de5` (v1.0.2)
 
 This guide will help you get started with MbSoftLab.StringEnums in just a few minutes.
 

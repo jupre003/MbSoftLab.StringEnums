@@ -1,5 +1,44 @@
 # Release Notes
 
+## Version 1.0.2 (November 28, 2025)
+
+### Übersicht
+
+Version 1.0.2 bringt eine signifikante Verbesserung der Codequalität durch 100% Testabdeckung.
+
+### Änderungen
+
+#### Tests
+- **100% Testabdeckung** aller Kernkomponenten
+- Neue Testdateien:
+  - `ConditionalStringValueAttributeTests.cs` - Tests für bedingte String-Werte
+  - `CustomStringValueExtensionsTests.cs` - Tests für benutzerdefinierte Erweiterungen
+  - `StringEnumExtensionsTests.cs` - Umfassende Tests für Extension-Methoden
+  - `StringValueAttributeTests.cs` - Tests für das StringValue-Attribut
+
+#### Testdaten
+- Neue Testhelfer in `DummyData/`:
+  - `CustomConditionalStringValueAttribute.cs`
+  - `CustomStringValueAttribute.cs`
+  - `CustomStringValueExtensions.cs`
+
+### Commit-Referenz
+
+- `be2d130` - Increase test coverage to 100% and update to version 1.0.2
+
+### Installation
+
+```bash
+dotnet add package MbSoftLab.StringEnums --version 1.0.2
+```
+
+Oder über NuGet Package Manager:
+```powershell
+Install-Package MbSoftLab.StringEnums -Version 1.0.2
+```
+
+---
+
 ## Version 0.0.1 (May 2, 2021)
 
 ### Overview

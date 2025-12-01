@@ -5,6 +5,28 @@ All notable changes to the MbSoftLab.StringEnums project will be documented in t
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.2] - 2025-11-28
+
+### Changed
+- Erhöhung der Testabdeckung auf 100%
+- Aktualisierung auf Version 1.0.2
+
+### Added
+- Neue Unit-Tests für umfassende Testabdeckung:
+  - `ConditionalStringValueAttributeTests.cs`
+  - `CustomStringValueExtensionsTests.cs`
+  - `StringEnumExtensionsTests.cs`
+  - `StringValueAttributeTests.cs`
+- Erweiterte Testdaten in `DummyData/`:
+  - `CustomConditionalStringValueAttribute.cs`
+  - `CustomStringValueAttribute.cs`
+  - `CustomStringValueExtensions.cs`
+
+### Commit Reference
+- `be2d130` - Increase test coverage to 100% and update to version 1.0.2
+
+---
+
 ## [0.0.1] - 2021-05-02
 
 ### Added
@@ -40,4 +62,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+[1.0.2]: https://github.com/mbsoftlab/MbSoftLab.StringEnums/releases/tag/v1.0.2
 [0.0.1]: https://github.com/mbsoftlab/MbSoftLab.StringEnums/releases/tag/v0.0.1
